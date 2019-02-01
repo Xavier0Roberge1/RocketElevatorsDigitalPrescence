@@ -1,0 +1,20 @@
+.btn-warning {
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border-color: #000000;
+}
+
+.btn-warning:hover {
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border-color: #000000;
+  }
+
+  .btn-warning:focus, .btn-warning.focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+}
+
+.btn-warning.disabled, .btn-warning:disabled {
+  color: #FFFFFF;
+  background-color: #FF0000;
+  border-color: #000000;
