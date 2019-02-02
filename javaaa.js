@@ -1,9 +1,8 @@
-
   document.getElementById("building-box").style.display="block";
-   document.getElementById("residential-box").style.display="none";
-   document.getElementById("commercial-box").style.display="none";
-   document.getElementById("corporate-box").style.display="none";
-   document.getElementById("hybrid-box").style.display="none";
+  document.getElementById("residential-box").style.display="none";
+  document.getElementById("commercial-box").style.display="none";
+  document.getElementById("corporate-box").style.display="none";
+  document.getElementById("hybrid-box").style.display="none";
 
 
    /** Selection in Building Box */
@@ -256,5 +255,5 @@ range = document.querySelector('input[name="quality"]:checked').value
  }else if( range == "excelium") {
 return 15400
 
-}
-}
+};
+};
